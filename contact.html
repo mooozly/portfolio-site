@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Jordan Rivera</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav container">
+    <a href="index.html" class="logo">Jordan <span>Rivera</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
+
+<main>
+  <section class="container" style="padding-top: 60px;">
+    <div class="section-header">
+      <h2>Get in touch</h2>
+      <p>Have a project in mind, or just want to say hi? Fill out the form or reach out directly.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div>
+        <form id="contact-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me a bit about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="align-self: flex-start;">Send message</button>
+          <p class="form-note" id="form-status"></p>
+        </form>
+      </div>
+
+      <div>
+        <div class="contact-info-item">
+          <div class="card-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:hello@jordanrivera.dev">hello@jordanrivera.dev</a>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="card-icon">📍</div>
+          <div>
+            <h4>Location</h4>
+            <p>San Francisco, CA (open to remote)</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="card-icon">⏱️</div>
+          <div>
+            <h4>Response time</h4>
+            <p>Usually within 1-2 business days</p>
+          </div>
+        </div>
+
+        <div class="social-row">
+          <a href="#" aria-label="LinkedIn" title="LinkedIn">in</a>
+          <a href="#" aria-label="GitHub" title="GitHub">gh</a>
+          <a href="#" aria-label="Twitter/X" title="Twitter/X">𝕏</a>
+          <a href="#" aria-label="Dribbble" title="Dribbble">db</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="container">
+  <p>© 2026 Jordan Rivera. Built with Cowork.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
