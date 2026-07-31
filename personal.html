@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal — Khaled Mously</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav container">
+    <a href="index.html" class="logo">Khaled <span>Mously</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="personal.html" class="active">Personal</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
+
+<main>
+  <section class="container" style="padding-top: 60px;">
+    <div class="section-header">
+      <h2>Personal</h2>
+      <p>A few things outside of physics and code.</p>
+    </div>
+
+    <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-bottom: 64px;">
+      <div class="card" style="padding: 0; overflow: hidden;">
+        <img src="personal/album-room-on-fire.jpg" alt="Room on Fire by The Strokes album cover" style="width: 100%; aspect-ratio: 1; object-fit: cover; display: block;">
+        <div style="padding: 20px;">
+          <p style="margin: 0; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent);">Last Listened</p>
+          <h3 style="margin: 8px 0 2px;">Room on Fire</h3>
+          <p style="margin: 0; color: var(--text-dim);">The Strokes</p>
+        </div>
+      </div>
+
+      <div class="card" style="padding: 0; overflow: hidden;">
+        <img src="personal/movie-the-thing-1982.jpg" alt="The Thing (1982) movie poster" style="width: 100%; aspect-ratio: 1; object-fit: cover; object-position: top; display: block;">
+        <div style="padding: 20px;">
+          <p style="margin: 0; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent);">Last Watched</p>
+          <h3 style="margin: 8px 0 2px;">The Thing</h3>
+          <p style="margin: 0; color: var(--text-dim);">1982</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-header">
+      <h2>Blog</h2>
+      <p>Nothing published yet — check back soon.</p>
+    </div>
+    <div class="card" style="text-align: center; color: var(--text-dim); padding: 48px 24px;">
+      Posts coming soon.
+    </div>
+  </section>
+</main>
+
+<footer class="container">
+  <p>© 2026 Khaled Mously. <a href="contact.html">Say hello →</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
